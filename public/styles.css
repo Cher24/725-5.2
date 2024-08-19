@@ -1,0 +1,89 @@
+/* public/css/styles.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.course-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1 1 calc(33% - 1rem);
+    max-width: calc(33% - 1rem);
+    margin-bottom: 1rem;
+}
+
+.course-item img {
+    width: 100%;
+    height: auto;
+}
+
+.course-content {
+    padding: 1rem;
+}
+
+.course-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.course-content p {
+    margin-bottom: 1rem;
+}
+
+.course-content a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.course-content a:hover {
+    text-decoration: underline;
+}
